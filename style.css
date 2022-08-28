@@ -1,0 +1,31 @@
+body {
+  background-color: rgb(160, 160, 160);
+}
+header {
+  margin: 50px;
+  text-align: center;
+  color: brown;
+}
+
+ol {
+  font-size: 20px;
+  list-style-type: upper-roman;
+}
+p.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+p.school {
+  font-weight: bold;
+  color: rgb(211, 211, 211);
+}
+ul {
+  line-height: 30px;
+}
+
+a:visited {
+  color: rgb(42, 42, 42);
+}
+a:hover {
+  color: brown;
+}
