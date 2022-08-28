@@ -22,10 +22,12 @@ p.school {
 ul {
   line-height: 30px;
 }
-
+a:link {
+  color: brown;
+}
 a:visited {
   color: rgb(42, 42, 42);
 }
 a:hover {
-  color: brown;
+  color: rgb(211, 211, 211);
 }
