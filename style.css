@@ -1,5 +1,4 @@
 body {
-  background-color: rgb(160, 160, 160);
 }
 header {
   margin: 50px;
@@ -8,7 +7,12 @@ header {
 }
 
 ol {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 60px;
   font-size: 20px;
+  background-color: rgb(160, 160, 160);
+
   list-style-type: upper-roman;
 }
 p.title {
@@ -21,6 +25,9 @@ p.school {
 }
 ul {
   line-height: 30px;
+}
+a {
+  transition: all 0.3s;
 }
 a:link {
   color: brown;
